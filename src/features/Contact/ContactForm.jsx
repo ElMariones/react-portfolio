@@ -127,9 +127,16 @@ const SendIcon = () => (
 );
 
 const WideCard = styled(Card)`
-  width: 1600px; /* Assuming default is 400px, adjust as needed */
-  max-width: 100vw;
+  width: 100%;
+  max-width: none;
   margin: 0 auto;
+  padding: 2rem 2rem;
+  box-sizing: border-box;
+  grid-column: 1 / -1;
+
+  @media (max-width: 700px) {
+    padding: 1rem 0.5rem;
+  }
 `;
 
 const ContactForm = () => {

@@ -61,7 +61,6 @@ const BackgroundEffectStyle = createGlobalStyle`
     background-color: var(--bg-primary);
     color: #e0e0e0;
     position: relative;
-    overflow: hidden; /* Prevent scrollbars from the oversized pseudo-elements */
     transition: background .15s ease-out, color .2s ease-out;
 
     &::before {

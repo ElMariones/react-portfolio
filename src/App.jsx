@@ -4,12 +4,12 @@ import { theme } from './styles/theme';
 import { GlobalStyle } from './styles/GlobalStyles';
 import DashboardLayout from './components/layout/DashboardLayout';
 import Hero from './features/Hero/Hero';
+import Experience from './features/Skills/Experience';
 import SocialLinks from './features/Socials/SocialLinks';
-import SkillsList from './features/Skills/SkillsList';
+import SkillsLanguagesCard from './features/Skills/SkillsLanguagesCard';
 import ContactForm from './features/Contact/ContactForm';
-import CVDisplay from './features/Hero/CV';
 import Location from './features/Hero/Location';
-import InteractiveBackground from './components/common/InteractiveBackground'; // Import the new component
+import InteractiveBackground from './components/common/InteractiveBackground';
 
 function App() {
   return (
@@ -20,8 +20,8 @@ function App() {
         <Hero />
         <Location />
         <SocialLinks />
-        <SkillsList />
-        <CVDisplay />
+        <Experience />
+        <SkillsLanguagesCard />
         <ContactForm />
       </DashboardLayout>
     </ThemeProvider>

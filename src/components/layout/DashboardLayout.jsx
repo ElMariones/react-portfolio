@@ -6,7 +6,7 @@ const DashboardGrid = styled.main`
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   gap: ${({ theme }) => theme.spacing.large};
   padding: ${({ theme }) => theme.spacing.large};
-  max-width: 1400px;
+  max-width: 1700px;
   margin: 40px auto;
 `;
 
